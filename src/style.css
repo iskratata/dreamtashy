@@ -1,0 +1,218 @@
+h2 {
+    font-weight: 500;
+    font-size: 1.6em;
+    text-transform: uppercase;
+}
+
+h3 {
+    background-color: #ff7dba;
+    color: #fff;
+    border-radius: 15px;
+}
+
+h4 {
+    background-color: #cbb3f5;
+    color: #fff;
+    padding: 0 2px;
+    font-weight: 500;
+    font-size: 1em;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-radius: 10px 10px 0 0;
+}
+
+input {
+    background-color: #ffffff;
+    color: #ff7dba;
+    font-size: 1.2em;
+    padding: 7px;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border: #ff7dba solid 3px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: #db5a96 solid 3px;
+    outline: none;
+    transition: 2s;
+}
+
+
+.main {
+    margin: 0 auto;
+    max-width: 900px;
+    min-height: 200px;
+    position: relative;
+    top: 30px;
+    background: #ffffff;
+    padding: 0;
+    border-radius: 10px;
+    height: 90vh;
+}
+
+button {
+    background-color: #ff7dba;
+    color: #ffffff;
+    font-size: 1.2em;
+    border: none;
+    height: 50px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: 0.1s;
+}
+
+.arrow-button {
+    background-color: #b5e43f;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.8em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.arrow-button:hover {
+    background-color: #a4d133;
+    color: #ffffff;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.options {
+    background-color: #b5e43f;
+    color: #333;
+    font-weight: 500;
+    font-size: 1em;
+    height: auto;
+    width: 100%;
+    text-transform: none;
+    border-radius: 0;
+    padding: 2px;
+    margin-top: 5px;
+}
+
+.options:hover {
+    background-color: #a4d133;
+    color: #333;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.speaker-name {
+    display: initial;
+    position: relative;
+    top: -20px;
+    background-color: rgba(46, 30, 2, 1);
+    border: #FBE9C6 solid 7px;
+    font-family: 'Francois One', sans-serif;
+    font-size: 1.2em;
+    min-width: 100px;
+    text-align: center;
+}
+
+.text-box {
+    background-color: rgba(46, 30, 2, 0.6);
+    padding: 0px 10px;
+    border: #FBE9C6 solid 7px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.centered-box {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 25px 25px; 
+    border-radius: 20px; 
+    width: 500px;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+}
+
+.bg1 {
+    background: linear-gradient(319deg, #a284d7, #fc6197, #faaa3e );
+    background-size: 100% 1200%;
+
+    -webkit-animation: gradientbg1 15s ease infinite;
+    -moz-animation: gradientbg1 15s ease infinite;
+    animation: gradientbg1 15s ease infinite;
+}
+
+@-webkit-keyframes gradientbg1 {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@-moz-keyframes gradientbg1 {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@keyframes gradientbg1 {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+
+.bg2 {
+    background: linear-gradient(319deg, #e387ff, #b387ff, #7a92ff, #61fcf0 );
+    background-size: 100% 1200%;
+
+    -webkit-animation: gradientbg2 15s ease infinite;
+    -moz-animation: gradientbg2 15s ease infinite;
+    animation: gradientbg2 15s ease infinite;
+}
+
+@-webkit-keyframes gradientbg2 {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@-moz-keyframes gradientbg2 {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@keyframes gradientbg2 {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+
+.card {
+    height: 100%; 
+    width: 100%; 
+    border-radius: 150px 150px 0 0;
+    border: #fff solid 5px;
+    box-shadow: rgba(99, 99, 99, 0.4) 0px 2px 8px 0px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+ul {
+    font-size: 0.9em;
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+    padding: 2px;
+}
+
+li {
+    margin-left: 20px;
+}
