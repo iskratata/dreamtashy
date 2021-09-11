@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dreamtashy/static/css/main.20913a5b.chunk.css",
+    "main.js": "/dreamtashy/static/js/main.cee586f3.chunk.js",
+    "main.js.map": "/dreamtashy/static/js/main.cee586f3.chunk.js.map",
+    "runtime-main.js": "/dreamtashy/static/js/runtime-main.85d29142.js",
+    "runtime-main.js.map": "/dreamtashy/static/js/runtime-main.85d29142.js.map",
+    "static/js/2.4c39cc27.chunk.js": "/dreamtashy/static/js/2.4c39cc27.chunk.js",
+    "static/js/2.4c39cc27.chunk.js.map": "/dreamtashy/static/js/2.4c39cc27.chunk.js.map",
+    "static/js/3.4f68d986.chunk.js": "/dreamtashy/static/js/3.4f68d986.chunk.js",
+    "static/js/3.4f68d986.chunk.js.map": "/dreamtashy/static/js/3.4f68d986.chunk.js.map",
+    "index.html": "/dreamtashy/index.html",
+    "static/css/main.20913a5b.chunk.css.map": "/dreamtashy/static/css/main.20913a5b.chunk.css.map",
+    "static/js/2.4c39cc27.chunk.js.LICENSE.txt": "/dreamtashy/static/js/2.4c39cc27.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.85d29142.js",
+    "static/js/2.4c39cc27.chunk.js",
+    "static/css/main.20913a5b.chunk.css",
+    "static/js/main.cee586f3.chunk.js"
+  ]
+}
